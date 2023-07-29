@@ -1,7 +1,8 @@
 # Slimy landing by cheesecake factory
-A platformer game inspired by Mario
+A platformer game heavily inspried by mario.Made by a very unlucky student who accidentaly stumbled apon coding and wanted to try it.
+the story goes like this:
 
-Accidentely crashng into earth and getting an arm caught in the jammed ejecting 
+After accidentely crashng into earth and getting an arm caught in the jammed ejecting 
 mechanisim while escaping from your ship that was buring up from the entrance into earths atmosphere.......
 
 while falling you looked around only to see the pieces of your melting ship fly past you,but these 
