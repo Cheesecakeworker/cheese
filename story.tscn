@@ -1,0 +1,75 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://more fonts/KiriFont.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://continue.gd" type="Script" id=2]
+[ext_resource path="res://2019-08-25_-_8bit-Smooth_Presentation_-_David_Fesliyan.mp3" type="AudioStream" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+font_data = ExtResource( 1 )
+
+[node name="story" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 536.0
+margin_bottom = 13.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1560.0
+margin_bottom = 800.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 1.0
+margin_top = 3.0
+margin_right = 1567.0
+margin_bottom = 716.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Accidentely crashng into earth and getting an arm caught in the jammed ejecting 
+mechanisim while escaping from your ship that was buring up from the entrance into earths atmosphere.......
+
+while falling you looked around only to see the pieces of your melting ship fly past you,but these 
+moments of consciousness was short lived.
+
+Shortly after the shock subsided,you finnaly felt the pain from 
+your shoulder witch no longer had a arm.The intense pain caused you to lose comsciousness again.
+
+After a while......
+you woke up and checked you and the area around you.you look around only to see a empty land with a 
+flattned sign burried in the ground.You slowly stood up to view a blob like
+creature.You picked up a pieace of broken metal from your surroundings to defend yourself before
+approching the creature.it moved quite quickly even without legs and also possesed atlest some amount of 
+inteligence  due to them being able to turn away when the reach the edge of a floating island.You saw one 
+approching you at a moderate pace you reached out your remaining arm equppied with a metal stick to check it 
+of its hostility.The moment the stick touched the blob.the blob started to grab the stick and pulled it with 
+all its might.Surprised,you accidentaly loosend your grinp and droped the stick.the slime devoured the stick as 
+as soon as it hit the ground.you jump back having gotten your answer and ran back to your crashsite.on the 
+way back you picked up a yellow coin the size of a palm.After you had rushed back,you analized the 
+coin and found that they coin and found that it had a large amount of rare metals and common materials 
+inside.You knew that it was possible to fix the remaments of your ship if you had a large amont of these coins.
+After knowing you used the coin you picked up to make a basic gun and went off find more coins to repair you 
+ship in this hostile blob creature filled land. "
+valign = 1
+
+[node name="continue" type="Button" parent="."]
+margin_left = 663.0
+margin_top = 727.0
+margin_right = 922.0
+margin_bottom = 775.0
+custom_fonts/font = SubResource( 2 )
+text = "continue......"
+flat = true
+script = ExtResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -25.0
+pitch_scale = 1.05
+autoplay = true
+
+[connection signal="pressed" from="continue" to="continue" method="_on_continue_pressed"]

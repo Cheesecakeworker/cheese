@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/mixkit-ending-show-audience-clapping-478.wav-ab7a909216ddc32bde1cbae0df12ef68.sample"
+
+[deps]
+
+source_file="res://sounds/mixkit-ending-show-audience-clapping-478.wav"
+dest_files=[ "res://.import/mixkit-ending-show-audience-clapping-478.wav-ab7a909216ddc32bde1cbae0df12ef68.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

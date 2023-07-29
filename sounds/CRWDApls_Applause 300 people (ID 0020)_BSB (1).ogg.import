@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg-73ced843a6247e8f64470fe36ca88a71.oggstr"
+
+[deps]
+
+source_file="res://sounds/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg"
+dest_files=[ "res://.import/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg-73ced843a6247e8f64470fe36ca88a71.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
