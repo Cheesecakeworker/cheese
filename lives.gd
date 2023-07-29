@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-var life = 1
+var life = 3
 
 
 func _ready():
