@@ -1,6 +1,6 @@
 extends Area2D
 
-var speed = 900
+var speed = 2000
 
 onready var bullet = $Sprite
 
