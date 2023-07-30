@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg-73ced843a6247e8f64470fe36ca88a71.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d4hkylwuv2daq"
+path="res://.godot/imported/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg-73ced843a6247e8f64470fe36ca88a71.oggvorbisstr"
 
 [deps]
 
 source_file="res://sounds/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg"
-dest_files=[ "res://.import/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg-73ced843a6247e8f64470fe36ca88a71.oggstr" ]
+dest_files=["res://.godot/imported/CRWDApls_Applause 300 people (ID 0020)_BSB (1).ogg-73ced843a6247e8f64470fe36ca88a71.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

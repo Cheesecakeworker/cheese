@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/impactMetal_heavy_000.ogg-8ca7562c667df1a1f04af44eddefed5f.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b1pys88s660fu"
+path="res://.godot/imported/impactMetal_heavy_000.ogg-8ca7562c667df1a1f04af44eddefed5f.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/impactMetal_heavy_000.ogg"
-dest_files=[ "res://.import/impactMetal_heavy_000.ogg-8ca7562c667df1a1f04af44eddefed5f.oggstr" ]
+dest_files=["res://.godot/imported/impactMetal_heavy_000.ogg-8ca7562c667df1a1f04af44eddefed5f.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

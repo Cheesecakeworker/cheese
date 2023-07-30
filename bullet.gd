@@ -1,8 +1,8 @@
 extends Area2D
 
-var speed = 2000
+var speed = 900
 
-onready var bullet = $Sprite
+@onready var bullet = $Sprite2D
 
 func _physics_process(delta):
 	

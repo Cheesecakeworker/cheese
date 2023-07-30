@@ -1,12 +1,12 @@
 [gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://mob.gd" type="Script" id=1]
-[ext_resource path="res://background/enemies/slimeBlue.png" type="Texture" id=2]
-[ext_resource path="res://slimeBlue_blue.png" type="Texture" id=3]
-[ext_resource path="res://background/enemies/slimeBlue_squashed.png" type="Texture" id=4]
+[ext_resource path="res://background/enemies/slimeBlue.png" type="Texture2D" id=2]
+[ext_resource path="res://slimeBlue_blue.png" type="Texture2D" id=3]
+[ext_resource path="res://background/enemies/slimeBlue_squashed.png" type="Texture2D" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 20, 11 )
+size = Vector2( 20, 11 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -25,9 +25,9 @@ animations = [ {
 radius = 6.08276
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 25, 10.5 )
+size = Vector2( 25, 10.5 )
 
-[node name="mob" type="KinematicBody2D"]
+[node name="mob" type="CharacterBody2D"]
 collision_layer = 24
 script = ExtResource( 1 )
 
@@ -35,7 +35,7 @@ script = ExtResource( 1 )
 position = Vector2( 0, 27 )
 shape = SubResource( 1 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2( 0, 21 )
 frames = SubResource( 2 )
 animation = "crawl"
@@ -60,7 +60,7 @@ shape = SubResource( 4 )
 [node name="floor_checker" type="RayCast2D" parent="."]
 position = Vector2( 0, 20 )
 enabled = true
-cast_to = Vector2( 0, 20 )
+target_position = Vector2( 0, 20 )
 collision_mask = 32
 
 [connection signal="body_entered" from="top" to="." method="_on_top_body_entered"]
